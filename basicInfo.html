@@ -1,0 +1,72 @@
+<html>
+<head>
+
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.css" />
+<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+<script src="scripts.js"></script>
+
+<title>Home</title>
+</head>
+<body>
+	<div data-role="page" id="basicInfo">
+		<div data-role="panel" id="menuPanel" data-theme="a" data-position-fixed="true">
+			<ul data-role="listview" data-theme="a">
+				<li><a href="basicInfo.html" class="ui-btn-active ui-state-persist">Basic Info</a></li>
+				<li><a href="interestingDetails.html">Interesting Details</a></li>
+				<li><a href="bookSummary.html">Book Summary</a></li>
+				<li><a href="themes.html">Themes</a></li>
+				<li><a href="characters.html">Characters</a></li>
+				<li><a href="chapterSummaries.html">Chapter Summaries</a></li>
+				<li><a href="essayTopics.html">Essay Topics</a></li>
+			</ul>
+		</div><!--PANEL-->	
+		<div data-role="header" data-id="fixhead" data-position="fixed" data-tap-toggle="false">
+			<a href="#menuPanel" data-role="button" data-iconpos="notext" data-icon="bars"></a>
+			<h1>Basic Info</h1>
+			<a href="index.html" data-role="button" data-iconpos="notext" data-icon="home"></a>
+		</div><!--HEADER-->
+		<div data-role="content">
+			<div>
+				<!--For each section, paste the text in place of the bolded keyword-->
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Title</li>
+					<li data-theme="d">King Lear</li>
+				</ul>
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Author</li>
+					<li data-theme="d">William Shakespeare</li>
+				</ul>
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Published</li>
+					<li data-theme="d">England, 1605. Published first by John Heminge and Henry Condell</li>
+				</ul>
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Genre</li>
+					<li data-theme="d">Play, Tragedy</li>
+				</ul>
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Setting</li>
+					<li data-theme="d">The play is set throughout England in the 8th century B.C.E.</li>
+				</ul>
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Point Of View</li>
+					<li data-theme="d">Being that it is a play there is no particular point of view, however the play often focuses on King Lear, 
+					his daughters Goneril and Regan, and Edmund, a treacherous man who plots to destroy Lear and take over his land.</li>
+				</ul>
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Conflict</li>
+					<li data-theme="d">The main conflict in the novel deals with Lear's willingness to trust his daughters simply because they 
+					state there love for him. In doing so he gives over his kingdom to his two worst daughters, and meanwhile casts away his 
+					most trustworthy daughter. His decision causes his Kingdom to fall apart and also causes King Lear to lose his sanity. 
+					In the end it is the trust he places in two of his daughters that leads to a tragic result.</li>
+				</ul>
+			</div>
+		</div><!--CONTENT-->
+		<div data-role="footer" data-id="fixfoot" data-position="fixed" data-tap-toggle="false">
+			<!--Replace the text below with the name of the book-->
+			<h3>King Lear</h3>
+		</div><!--FOOTER-->
+	</div><!--PAGE-->
+</body>
+</html>

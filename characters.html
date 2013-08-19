@@ -1,0 +1,92 @@
+<html>
+<head>
+
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.css" />
+<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+<script src="scripts.js"></script>
+    
+
+<title>Home</title>
+</head>
+<body>
+	<div data-role="page" id="characters">
+		<div data-role="panel" id="menuPanel" data-theme="a" data-position-fixed="true">
+			<ul data-role="listview" data-theme="a">
+				<li><a href="basicInfo.html">Basic Info</a></li>
+				<li><a href="interestingDetails.html">Interesting Details</a></li>
+				<li><a href="bookSummary.html">Book Summary</a></li>
+				<li><a href="themes.html">Themes</a></li>
+				<li><a href="characters.html" class="ui-btn-active ui-state-persist">Characters</a></li>
+				<li><a href="chapterSummaries.html">Chapter Summaries</a></li>
+				<li><a href="essayTopics.html">Essay Topics</a></li>
+			</ul>
+		</div><!--PANEL-->	
+		<div data-role="header" data-id="fixhead" data-position="fixed" data-tap-toggle="false">
+			<a href="#menuPanel" data-role="button" data-iconpos="notext" data-icon="bars"></a>
+			<h1>Characters</h1>
+			<a href="index.html" data-role="button" data-iconpos="notext" data-icon="home"></a>
+		</div><!--HEADER-->
+		<div data-role="content">
+			<div>
+				<!--For each section, paste the text in place of the bolded keyword-->
+				<!--Copy more from <ul *to* /ul> if more characters needed-->
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">King Lear</li>
+					<li data-theme="d">The aging, prideful King of England</li>
+					<li data-theme="c">He is a controlling man and does not like being challenged</li>
+					<li data-theme="d">King Lear disowns his daughter because she refuses to say she loves him, and in doing so sets the tragedies course</li>
+				</ul>
+				
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Goneril</li>
+					<li data-theme="d">King Lear's older daughter, she is a very aggressive and nasty woman</li>
+					<li data-theme="c">She seeks her father's power, as well as control over her husband, eventually when her plan fails, she kills herself.</li>
+				</ul>
+				
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Cordelia</li>
+					<li data-theme="d">Cordelia is Lear's youngest daughter</li>
+					<li data-theme="c">She is disowned by her father</li>
+					<li data-theme="d">She marries the King of France</li>
+					<li data-theme="c">Dies after her sisters send her to prison</li>
+				</ul>
+				
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Gloucester</li>
+					<li data-theme="d">Gloucester is a very loyal Earl</li>
+					<li data-theme="c">Had an affair and fathered a bastard son named Edmund</li>
+					<li data-theme="d">Very similar to Lear (in the way they both betray their children)</li>
+					<li data-theme="c">Drives away his true son, Edgar</li>
+					<li data-theme="d">King Lear's daughters strip him of his title</li>
+				</ul>
+				
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Regan</li>
+					<li data-theme="d">The middle daughter of King Lear</li>
+					<li data-theme="c">She is a very ruthless and similar to her sister Goneril</li>
+				</ul>
+				
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Edgar</li>
+					<li data-theme="d">Oldest son of Gloucester</li>
+					<li data-theme="c">Gloucester's actual son</li>
+					<li data-theme="d">He is very gullible</li>
+					<li data-theme="c">Defeats his brother, Edmund</li>
+				</ul>
+				
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Edmund</li>
+					<li data-theme="d">Illegitimate son of Gloucester</li>
+					<li data-theme="c">He is very jealous of Edgar and is a bitter person</li>
+					<li data-theme="d">He wants to take away everything from Edgar and Gloucester</li>
+				</ul>
+			</div>
+		</div><!--CONTENT-->
+		<div data-role="footer" data-id="fixfoot" data-position="fixed" data-tap-toggle="false">
+			<!--Replace the text below with the name of the book-->
+			<h3>King Lear</h3>
+		</div><!--FOOTER-->
+	</div><!--PAGE-->
+</body>
+</html>

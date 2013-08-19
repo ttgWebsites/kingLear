@@ -1,0 +1,68 @@
+<html>
+<head>
+
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.css" />
+<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+<script src="scripts.js"></script>
+    
+
+<title>Home</title>
+</head>
+<body>
+	<div data-role="page" id="themes">
+		<div data-role="panel" id="menuPanel" data-theme="a" data-position-fixed="true">
+			<ul data-role="listview" data-theme="a">
+				<li><a href="basicInfo.html">Basic Info</a></li>
+				<li><a href="interestingDetails.html">Interesting Details</a></li>
+				<li><a href="bookSummary.html">Book Summary</a></li>
+				<li><a href="themes.html" class="ui-btn-active ui-state-persist">Themes</a></li>
+				<li><a href="characters.html">Characters</a></li>
+				<li><a href="chapterSummaries.html">Chapter Summaries</a></li>
+				<li><a href="essayTopics.html">Essay Topics</a></li>
+			</ul>
+		</div><!--PANEL-->	
+		<div data-role="header" data-id="fixhead" data-position="fixed" data-tap-toggle="false">
+			<a href="#menuPanel" data-role="button" data-iconpos="notext" data-icon="bars"></a>
+			<h1>Themes</h1>
+			<a href="index.html" data-role="button" data-iconpos="notext" data-icon="home"></a>
+		</div><!--HEADER-->
+		<div data-role="content">
+			<div>
+				<!--For each section, paste the text in place of the bolded keyword-->
+				<!--Copy more from <ul *to* /ul> if more themes needed-->
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Making amends</li>
+					<li data-theme="d">At the beginning of the play King Lear divides his estate between two of his daughters leaving one of them, Cordelia, out of the inheritance</li>
+					<li data-theme="c">Cordelia loved her father very much, but was always blunt and honest with him, which upset him causing her to be left out</li>
+					<li data-theme="d">King Lear throughout the course of the novel realizes the errors of his ways, and he also learns that Cordelia's attitude towards him was only out of love</li>
+					<li data-theme="c">King Lear must reconcile with his daughter and manages to gain back her affection</li>
+				</ul>
+				
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Authority Vs. Chaos</li>
+					<li data-theme="d">In King Lear's old age he chooses to pass down his authority to two of his daughters</li>
+					<li data-theme="c">The daughters he leaves in power are reckless and terrible leaders</li>
+					<li data-theme="d">Authority is left in unworthy hands and the whole country seems to fall into chaos</li>
+					<li data-theme="c">The reader sees that strong authority in the wrong hands can lead to a great downfall and ultimately chaos</li>
+					<li data-theme="d">King Lear's relinquishing of his own authority leads to the further destruction of all authority in Great Britain</li>
+					<li data-theme="c">Lear must find a way to regain authority in his country and save it from chaos</li>
+				</ul>
+				
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Justice</li>
+					<li data-theme="d">The play is filled with terrible and tragic events that leaves one wondering if their is in fact any justice in what occurs</li>
+					<li data-theme="c">Many of the characters believe that the Gods are extremely unfair and unjust, as they leave those on earth to suffer at their whim</li>
+					<li data-theme="d">Others believe that the Gods are in fact just and that those who suffer these tragic acts are in fact deserving of their punishment</li>
+					<li data-theme="c">Throughout the entire play this debate over justice is seen, many seemingly horrible people suffer, as well as many innocent and undeserving people suffer as well</li>
+					<li data-theme="d">At the end all the suffering that ensues it is hard to determine whether these acts are just</li>
+				</ul>
+			</div>
+		</div><!--CONTENT-->
+		<div data-role="footer" data-id="fixfoot" data-position="fixed" data-tap-toggle="false">
+			<!--Replace the text below with the name of the book-->
+			<h3>King Lear</h3>
+		</div><!--FOOTER-->
+	</div><!--PAGE-->
+</body>
+</html>
